@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;600;700&family=Lexend+Deca:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin: 15px;
+font-family: 'Inter', sans-serif;
+
+}
+.root{
+    background-color:hsl(0, 0%, 20%) ;
+   width:320px;
+   height: 75vh;
+   margin: 5% 10%;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   padding:30px;
+   /* padding-bottom:5px ; */
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+
+}
+h1{
+    color: white;
+    margin: 20px 0 5px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.london{
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.frontend{
+    color: rgb(230, 228, 228);
+    margin-bottom: 15px;
+    font-size: 13px;
+    
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 25%) ;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 6px;
+    cursor: pointer;
+}
+@media screen and (min-width:375px) and (max-width:900px) {
+    .root{
+        height:90vh
+    }
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bold;
+}
